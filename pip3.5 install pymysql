@@ -1,0 +1,33 @@
+➜  site-packages pip3.5 install pymysql
+Collecting pymysql
+  Downloading PyMySQL-0.7.2-py2.py3-none-any.whl (76kB)
+    100% |████████████████████████████████| 77kB 5.1MB/s
+Installing collected packages: pymysql
+Successfully installed pymysql-0.7.2
+You are using pip version 7.1.2, however version 8.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+➜  site-packages
+
+➜  site-packages pip3.5 install --upgrade pip
+Collecting pip
+  Using cached pip-8.1.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 7.1.2
+    Uninstalling pip-7.1.2:
+      Successfully uninstalled pip-7.1.2
+Successfully installed pip-8.1.1
+➜  site-packages pip3.5 install MySQL-python
+Collecting MySQL-python
+  Using cached MySQL-python-1.2.5.zip
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/var/folders/42/20y6z3696pd37swpcxs382hm0000gn/T/pip-build-g86ewfb7/MySQL-python/setup.py", line 13, in <module>
+        from setup_posix import get_config
+      File "/private/var/folders/42/20y6z3696pd37swpcxs382hm0000gn/T/pip-build-g86ewfb7/MySQL-python/setup_posix.py", line 2, in <module>
+        from ConfigParser import SafeConfigParser
+    ImportError: No module named 'ConfigParser'
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /private/var/folders/42/20y6z3696pd37swpcxs382hm0000gn/T/pip-build-g86ewfb7/MySQL-python/
+➜  site-packages
